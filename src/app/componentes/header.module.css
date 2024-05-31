@@ -1,3 +1,36 @@
-.header{
-    background-color: rgb(49, 41, 41);
+
+.header {
+    background-color:rgb(138, 127, 127);
+    display: flex;
+    padding: 0,9%;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.cabecalho2 {
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cabecalho3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button{
+    background-color: rgb(76, 116, 85);
+    height: 40px;
+    width: 100px;
+    border-radius: 25px;
+   
+}
+
+.frase{
+    font-size: 18px;
+    margin:15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
