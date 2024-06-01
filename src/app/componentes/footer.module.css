@@ -1,3 +1,19 @@
 .footer{
-    background-color: rgb(49, 41, 41);
+    background-color:rgb(138, 127, 127);
+    display: flex;
+    padding: 0,9%;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.imagem_direita {
+    position: absolute;
+    right: 0;
+    transform: translateY(-50%);
+    align-items: center;
+}
+.frase{
+    font-size: 18px;
+    margin:15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
