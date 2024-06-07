@@ -6,14 +6,20 @@
     justify-content: space-between;
 }
 
-.imagem_direita {
-    position: absolute;
-    right: 0;
-    transform: translateY(-50%);
+.cabecalho2 {
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cabecalho3 {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
+
 .frase{
-    font-size: 18px;
-    margin:15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
 }
