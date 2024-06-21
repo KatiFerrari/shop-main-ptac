@@ -30,9 +30,24 @@ export default function Main(){
     setListProduct(newList);
    }
 
-   const orderPreco = () => {
-    const newList = [...listProduct].sort((a, b) => b.price - a.price);
-    setListProduct(newList);
+   const precoMaior = () =>{
+    let newList = [...listProdutos].sort((a, b)=>
+      a.price - b.price
+    );
+    setListaProdutos(newList);
+  }
+
+
+ const precoMenor = () =>{
+    let newList = [...listProdutos].sort((a, b)=>
+      a.price - b.price
+    );
+    newList = newList.reverse();
+    setListaProdutos(newList);
+  }
+
+  if(listProdutos[0] == null){
+    return <Spinner/>
   }
 
       return (
@@ -40,7 +55,8 @@ export default function Main(){
         <div>
           <button onClick={orderAz}>Az</button>
           <button onClick={orderZa}>Za</button>
-          <button onClick={orderPreco}>Preçp maior</button>
+          <button onClick={precoMaior}>Preço maior</button>
+          <button onClick={precoMenor}>Preço menorc</button>
         </div>
         <main className={styles.main}>
           {listProduct.map((products)=> 
